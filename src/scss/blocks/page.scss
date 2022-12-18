@@ -1,0 +1,47 @@
+.page{
+    margin-bottom: 100px;
+    @include media-xl-max{
+        margin-bottom: 80px;
+    }
+    @include media-lg-max{
+        margin-bottom: 70px;
+    }
+    @include media-md-max{
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+    @include media-sm-max{
+        margin-bottom: 50px;
+    }
+}
+.page__title{
+    text-align: center;
+    padding: 65px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+
+    @include media-sm-max{
+        font-size: 30px;
+        padding: 35px;
+    }
+}
+.page__subtitle{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 50px;
+
+    @include media-lg-max{
+        font-size: 30px;
+        margin-bottom: 35px;  
+    }
+    @include media-md-max{
+        font-size: 24px;
+        margin-bottom: 25px;  
+    }
+    @include media-sm-max{
+        font-size: 20px;
+        margin-bottom: 20px;  
+    }
+}
