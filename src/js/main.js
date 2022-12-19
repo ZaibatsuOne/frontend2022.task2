@@ -120,9 +120,9 @@ if(card_add__button__create){
       }
       else{
         contentString = 
-        `<article class="card__body card__body--list">
+        `<article class="card__body card__body-list">
         <img class="card__image" src="${input_url}" alt="">
-        <div class="card__content card__body-list">
+        <div class="card__content card__content-list">
             <div class="card__description">
                 <h3 class="card__title">${input_title}</h3>
                 <p class="card__text">${input_description}</p>    
