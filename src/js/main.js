@@ -80,7 +80,6 @@ if(card_add__button){
     if(card_add__form){
       card_add__button.style.display = 'none';
       card_add__form.style.display = 'flex';
-      faq_.style.display = 'none';
     }
   });
 }
@@ -89,7 +88,6 @@ if(card_add__button__cancel){
     if(card_add__form){
       card_add__button.style.display = 'block';
       card_add__form.style.display = 'none';
-      faq_.style.display = 'block';
     };
   });
 }
@@ -102,7 +100,6 @@ if(card_add__button__create){
     const cards = document.querySelector('.card');
     let contentString ="";
     let getDate = nowDate.toLocaleString('en', {month:'long'}) + " " + nowDate.getDate()+ ", " + nowDate.getFullYear();
-
     if (card__grid){
       contentString = 
       `<article class="card__body">
@@ -134,6 +131,10 @@ if(card_add__button__create){
         </article>`
       }
     cards.insertAdjacentHTML('beforeend', contentString);
+    e.target.reset(); 
+    card_add__form.style.display = 'none';
+
+
     })
 }
 /**************/
@@ -144,7 +145,7 @@ var i;
 faq.forEach((faq__question) => {
   faq__question.addEventListener("click", function () {
 
-    this.classList.toggle("active");
+    this.classList.toggle("faq__question--active");
 
     let body = this.nextElementSibling;
     if (body.style.display === "block") {
