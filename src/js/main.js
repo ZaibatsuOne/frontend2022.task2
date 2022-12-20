@@ -132,9 +132,8 @@ if(card_add__button__create){
       }
     cards.insertAdjacentHTML('beforeend', contentString);
     e.target.reset(); 
+    card_add__button.style.display = 'block';
     card_add__form.style.display = 'none';
-
-
     })
 }
 /**************/
