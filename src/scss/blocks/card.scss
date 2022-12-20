@@ -22,7 +22,8 @@
 .card__image{
     object-fit: cover;
     height: 192px; 
-    width: 100%;
+    width: 420px;
+    
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
 
@@ -82,8 +83,10 @@
 .card-add{
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    padding-top: 40px;
     align-items: center;
+    padding-bottom: 70px;
+    
 }
 .card-add__wrapper{
     max-width: 300px;
@@ -164,18 +167,21 @@
 
 
 .card-label__name{
-    margin-top: 30px;
+    margin-top: 20px;
     height: 44px;
     border-radius: 3px;
 }
 .card-label__url{
-    margin-top: 30px;
+    padding-top: 20px;
     height: 44px;
     border-radius: 3px;
 }
 .card-label__description{
-    margin-top: 30px;
+    margin-top: 20px;
     border-radius: 3px;
+}
+#card-text-description{
+    height: 127px;
 }
 
 
