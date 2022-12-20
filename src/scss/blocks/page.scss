@@ -1,17 +1,17 @@
 .page{
     margin-bottom: 100px;
     @include media-xl-max{
-        margin-bottom: 80px;
+        padding-bottom: 80px;
     }
     @include media-lg-max{
-        margin-bottom: 70px;
+        padding-bottom: 70px;
     }
     @include media-md-max{
-        margin-top: 80px;
-        margin-bottom: 50px;
+        padding-top: 80px;
+        padding-bottom: 50px;
     }
     @include media-sm-max{
-        margin-bottom: 50px;
+        padding-bottom: 50px;
     }
 }
 .page__title{
@@ -30,18 +30,18 @@
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 
     @include media-lg-max{
         font-size: 30px;
-        margin-bottom: 35px;  
+        padding-bottom: 35px;  
     }
     @include media-md-max{
         font-size: 24px;
-        margin-bottom: 25px;  
+        padding-bottom: 25px;  
     }
     @include media-sm-max{
         font-size: 20px;
-        margin-bottom: 20px;  
+        padding-bottom: 20px;  
     }
 }
