@@ -87,6 +87,10 @@
     align-items: center;
     padding-bottom: 70px;
     
+    @include media-xl-max{
+        padding-bottom: 10px;
+    }
+    
 }
 .card-add__wrapper{
     max-width: 300px;
