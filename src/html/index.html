@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Темеров Антон КИ20-20Б</title>
+    <link rel="stylesheet" href="assets/css/main.css"> 
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav">   
+                <div class="header__menu">
+                    <img src="assets/images/logo.png" class="header__image" alt="Логотип ИКИТ">
+
+
+                    <input id="menu-toggle" type="checkbox" />
+                    <label class='menu-button-container' for="menu-toggle">
+                        <div class='menu-button'></div>
+                    </label> 
+
+                    <ul class="header__list menu">
+                        <li class="header__item header__item--active"><a href="#">Главная</a></li>
+                        <li class="header__item"><a href="#">Информация</a></li>
+                        <li class="header__item"><a href="#">Новости</a></li>
+                        <li class="header__item"><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="header__user">
+                    <a class="header__username" href="#">Ваше имя</a>
+                    <img class="header__userpic" src="assets/images/sign-in.png"  alt="Иконка профиля">
+                </div>
+            </nav>
+        </div>  
+    </header>  
+    <div class="page container">
+        <h1 class="page__title">Личная страница</h1>
+        <h2 class="page__subtitle">Полезная информация</h2>
+    </div>    
+    <section class="section container">
+        <article class="section__left">
+            <div class="section__search">
+                <div class="section__wrapper">
+                    <input id="section__text" type="text" />
+                </div>
+                <div class="section__button">
+                    <button id="section__button" >Поиск</button>
+                </div>
+                
+            </div>
+            <h2 class="section__title">Сервисы</h2>
+            <ul class="section__list">
+                <li class="section__item">Список 1</li>
+                <li class="section__item">Список 2</li>
+            </ul>
+        </article>
+        <article class="section__right">
+            <h2 class="section__title">Структуры даных. Бинарное дерево поиска</h2>
+            <div class="section__decription">
+                <h3 class="section__subtitle">Что такое дерево? </h3>
+                <p class="section__text">Деревья — наверное одна, из самых широко используемых структур даных. Деревья помогают представить данные в, внимание, древовидной структуре☺ Деревеьв на самом деле просто невероятное количество, и каждое используется с какой то своей определенной целью.</p>
+            </div>
+            <div class="section__decription">
+                <h3 class="section__subtitle">Алгоритмы сортировки. QuickSort</h3>
+                <p class="section__text">QuickSort по праву называется королем среди алгоритмов сортировки, и наверное, самый известный алгоритм сортировки. Сам алгоритм был разработан в 1960году математиком Чарльзом Харном. В связи с тем, что в худшем случае, или в близком к худшему случае алгоритм невероятно деградирует, Роберт Седжвик, в своем курсе на Coursera рекомендует его перемешать перед проведенеием сортировки, и если после пересортировки ваш массив превратиться в самый худший случай — то вы действительно удивительно неудачливы, и вам стоит поставить свечку в церкве, чистить карму, да и всячески оправдываться перед судьбой, а не заниматься алгоритмами☺</p>
+            </div>
+        </article>
+    </section>
+    <div class="container special">
+        <h2 class="special__title">Интересные статьи</h2>
+        <div class="special__icons">
+            <button class="special__icon-button" id="icon__list-button">
+                <svg  viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.5 6H21.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M8.5 12H21.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M8.5 18H21.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M3.5 6H3.51" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M3.5 12H3.51" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M3.5 18H3.51" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+            </button>
+            <button class="special__icon-button special__icon-button--active" id="icon__grid-button">
+                <svg viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.5 3H3.5V10H10.5V3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M21.5 3H14.5V10H21.5V3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M21.5 14H14.5V21H21.5V14Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M10.5 14H3.5V21H10.5V14Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+            </button>
+        </div>
+        <p class="special__subtitle">Последние новости интернета</p>
+    </div>
+    <div class="card container">
+        <article class="card__body">
+            <img class="card__image" src="/assets/images/cover-youtube2.jpg" alt="YouTube логотип">
+            <div class="card__content">
+                <div class="card__description">
+                    <h3 class="card__title">Первому ролику на «Ютубе» исполнилось 10 лет</h3>
+                    <p class="card__text">23 апреля 2005 года на сайте YouTube был опубликован видеоролик Me at the zoo, представленный выше. Главный герой — Джавед Карим, который подглуповато рассказывает о слонах, находясь в зоопарке.</p>
+                </div>
+                <footer>
+                    <p class="card__date">1 January, 2021 · 6 min read</p>
+                </footer>
+            </div>
+        </article>
+        <article class="card__body">
+            <img class="card__image" src="/assets/images/vk.png" alt="VK логотип">
+            <div class="card__content">
+                <div class="card__description">
+                    <h3 class="card__title">Социальная сеть ВКонтакте подвела итоги первого квартала 2022 года</h3>
+                    <p class="card__text">Кроме финансовых итогов первого квартала 2022 года от самой компании VK, были подведены еще и итоги социальной сети ВКонтакте. Так за первый квартал среднее значение общей ежемесячной аудитории соцсети составило 73,4 млн, а средний ежедневный показатель в России — 47,2 млн.</p>
+                </div>
+                <footer>
+                    <p class="card__date">28 February, 2022 · 6 min read</p>
+                </footer>
+            </div>
+        </article>
+        <article class="card__body">
+            <img class="card__image" src="/assets/images/tinkoff.png" alt="Tinkoff логотип">
+            <div class="card__content">
+                <div class="card__description">
+                    <h3 class="card__title">API для Инвестиций, или Как написать торгового робота</h3>
+                    <p class="card__text">На связи команда Тинькофф Инвестиций. В этой статье разберем, как клиенты с минимальными навыками программирования создают торговых роботов.
+                            Базой будет API брокера Тинькофф Инвестиций — Tinkoff Invest API. Добро пожаловать на борт! </p>
+                </div>
+                <footer>
+                    <p class="card__date">Mar 16, 2020 · 6 min read</p>
+                </footer>
+            </div>
+        </article>
+    </div>
+    <div class="card-add container">
+        <div class="card-add__wrapper">
+            <button class="card-add__button--add" id="card-add__button__add">Добавить</button>
+        </div>
+        <form class="card-add__form" onsubmit="return false;">
+            <div class="card-add__form-wrapper">
+                <label class="card-label__name">Название статьи</label>
+                <input type="text" id="card-text-name">
+                <label class="card-label__url">Ссылка на картинку</label>
+                <input type="text" id="card-text-url">
+                <label class="card-label__description">Описание</label>
+                <textarea id="card-text-description"></textarea>
+                <div class="card-add__button-wrapper">
+                    <button type="reset" class="card-add__button--cancel" id="card-add__button--cancel">Отмена</button>
+                    <button type="submit" class="card-add__button--create" id="card-add__button--create">Создать</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="faq container" id="faq">
+        <h3 class="faq__title">FAQ</h2>
+        <dl class="faq__wrapper">
+            <dt class="faq__question">Что нужно знать о контенте в ВК?</dt>
+            <dd class="faq__answer">Контент-маркетинг в «ВКонтакте» работает по тем же принципам, что и в других соцсетях, уверена Анна Галашева. Она говорит, что у аудитории там такие же проблемы, как в других социальных сетях. Однако у ВК есть свои особенности.
+            В ВК — сильные лидеры мнений, а лайфстайл-блогером там быть трудно. Вера Малова из «Палиндрома» объясняет: «В Instagram* можно было показывать свою жизнь и получать внимание. Во „ВКонтакте“ так не получается — здесь блогер должен давать полезный контент».</dd>
+            <dt class="faq__question">Как работает реклама «ВКонтакте»</dt>
+            <dd class="faq__answer">Принципы размещения рекламы «ВКонтакте» похожи на таргетинг в Facebook* (деятельность Facebook* объявлена в России экстремистской и запрещена).
+            Во «ВКонтакте» две главные позиции для размещения рекламы. Первая — лента новостей. Там реклама размещается между записями, которые просматривают пользователи. Вторая — текстово-графические блоки слева под основным меню.</dd>
+            <dt class="faq__question">Какие ещё инструменты продвижения есть во «ВКонтакте»</dt>
+            <dd class="faq__answer">Прямые эфиры. Запускать прямые эфиры можно как с личной страницы, так и от лица сообщества. Трансляции доступны с телефона и с компьютера. При запуске эфира с мобильного приложения оповещение об этом эфире автоматически уходит в истории.</dd>
+        </dl>
+    </div>
+    <footer class="footer"> 
+        <div class="container">
+            <p class="footer__text">© 2022 Институт космических и информационных технологий СФУ</p>
+        </div>
+    </footer> 
+</body>
+<script src="/assets/js/main.js"></script> 
+</html>
